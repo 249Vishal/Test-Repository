@@ -22,7 +22,7 @@ namespace SampleApp.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page. Vishal Ingole";
+            ViewBag.Message = "Your contact page. Vishal Ingole , Tanmay Gujar";
 
             return View();
         }
