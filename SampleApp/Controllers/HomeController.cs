@@ -23,6 +23,7 @@ namespace SampleApp.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page. Vishal Ingole , Tanmay Gujar Test, Aziz Nagpurwala , Mahesh Gondugade";
+            viewBad.Branches = "master,  Branch1";
 
             return View();
         }
