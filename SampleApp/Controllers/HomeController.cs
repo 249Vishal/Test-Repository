@@ -15,7 +15,7 @@ namespace SampleApp.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Your application description page for Home Page.";
 
             return View();
         }
